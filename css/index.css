@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+
+        /*슬라이더*/
+        #slider{width: 100%; height: 700px; background-image: url(../img/img1.jpg); background-size: cover; background-position: center; margin: 0 auto;}
+        #slider:hover{cursor: pointer;}
+        /*잘 모르겠는 부분ㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱ*/
+        #slider>#h1box{width: 1260px; height: 200px; margin: 0 auto;}
+        #slider>#h1box>h1{font-size: 40px; color: #fff; letter-spacing: 3px; padding: 150px 0 0 20px; text-shadow: 4px 4px 4px #000; margin: 0 0 0 150px;}
+        #slider>#h1box>p{font-size: 15px; color: slategray; letter-spacing: 3px; padding: 10px 0 0 40px; text-shadow: 4px 4px 4px #fff; margin: 0 0 0 150px;}
+        
+        #slider>#h1box>button{color: #fff; background-color: dimgray; opacity: 0.8; border: 0; padding: 40px; font-size: 30px; margin: 20px 0 0 980px;}
+        #slider>#h1box>button:hover{color: #fff dimgray; opacity: 0.4; cursor: pointer;}
+        #slider>#h1box>span>button{color: #fff; background-color: dimgray; opacity: 0.8; border: 0; padding: 40px; font-size: 30px; margin:  10px 0 0 40px;}
+        #slider>#h1box>span>button:hover{color: #fff dimgray; opacity: 0.4; cursor: pointer;}
+
+        /*섹션*/
+        section{width: 1260px; height: 100%; margin: 0 auto;}
+        
+        /*상품1*/
+        #product1{width: 1260px; height: 750px; margin: 0 auto;}
+        #product1>h1{text-align: center; font-size: 30px; padding: 100px 0 10px 10px;}
+
+        /*잘 모르겠는 부분ㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱ*/
+        #product1>.box{width: 270px; height: 500px; float: left; margin:20px 22px;}
+        #product1>.box>a>img{width: 100%; height: 70%; border-radius: 20px; transition: 0.5s; margin: 0 0 10px 0px;}
+        #product1>.box>a>img:hover{opacity: 0.7; cursor: pointer; border-radius: 90px;}
+
+        #product1>.box>h3>a{text-decoration: none; color: #000; font-weight: bold; font-size: 16px; margin: 0 0 0 10px;}
+        #product1>.box>p>a{text-decoration: none; color: #000; font-size: 14px; margin: 0 0 0 10px;}
+
+        #product1>button{padding: 15px 120px; margin: 0 0 0 483px; cursor: pointer; border: 1px solid silver; color: #000; background-color: #fff;}
+        #product1>button:hover{background-color: gainsboro; opacity: 0.7;}
+
+        /*상품2*/
+        #product2{width: 1260px; height: 673px; margin: 0 auto;}
+        #product2>h1{text-align: center; font-size: 30px; padding: 100px 0 10px 10px;}
+
+        /*잘 모르겠는 부분ㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱㄱ*/
+        #product2>.box{width: 270px; height: 400px; float: left; margin:20px 22px;}
+        #product2>.box>a>img{width: 100%; height: 70%; border-radius: 20px; transition: 0.5s; margin: 0 0 10px 0px;}
+        #product2>.box>a>img:hover{opacity: 0.7; cursor: pointer; border-radius: 90px;}
+
+        #product2>.box>h3>a{text-decoration: none; color: #000; font-weight: bold; font-size: 16px; margin: 0 0 0 10px;}
+        #product2>.box>p>a{text-decoration: none; color: #000; font-size: 14px; margin: 0 0 0 10px;}
+
+        #product2>button{padding: 15px 120px; margin: 23px 0 0 483px; cursor: pointer; border: 1px solid silver; color: #000; background-color: #fff;}
+        #product2>button:hover{background-color: gainsboro; opacity: 0.7;}
+
+
+
+        /*상품3*/
+        #product3{width: 1260px; height: 775px; margin: 0 auto;}
+        #product3>h1{text-align: center; font-size: 30px; padding: 100px 0 10px 10px;}
+
+        #product3>.box{width: 390px; height: 500px; float: left; margin:20px 15px;}
+        #product3>.box>a>img{width: 100%; height: 70%; border-radius: 20px; transition: 0.5s;}
+        #product3>.box>a>img:hover{cursor: pointer;}
+
+        #product3>.box>h1>a{font-size: 20px; color: #000; float: left; text-decoration: none; margin: 0 50px 5px 5px;}
+        #product3>.box>h3{font-size: 16px; margin: 15px 0 0 7px; letter-spacing: 2px;}
+        #product3>.box>h3>span>a{font-size: 16px; color: orangered; text-decoration: none; margin: 0 0 0 5px;}
+        #product3>.box>p{margin: 10px 0 0 5px; text-align: justify;}
+        #product3>.box>p>a{text-decoration: none; color: #000; font-size: 14.5px;}
+        #product3>.box>h6{font-size: 10px; color: dimgray; margin: 5px 0 0 7px;}
+
+        #product3>button{padding: 15px 120px; margin: 23px 0 0 483px; cursor: pointer; border: 1px solid silver; color: #000; background-color: #fff;}
+        #product3>button:hover{background-color: gainsboro; opacity: 0.7;}
+
+
+        /*상품4*/
+        #product4{width: 1260px; height: 1000px; margin: 0 auto;}
+        #product4>h1{text-align: center; font-size: 30px; padding: 100px 0 10px 10px;}
+        #product4>a>img{width: 530px; height: 500px; margin: 100px 0 0 120px; border-radius: 50px;}
+        #product4>.box>h1{color: #000; font-size: 25px; float: left; margin: 40px 0 20px 0;}
+        #product4>.box>p{color: #000; font-size: 18px; float: left; font-weight: bold; margin: 0 0 40px 0px;;}
+
+        #product4>.box>.imgbox>a>img{width: 150px; height: 150px; float: left; border-radius: 50px; padding: 10px; margin: 5px;}
+        #product4>.box>.imgbox>a>img:hover{opacity: 0.5; transition: 0.7s;}
+
+        #product4>.box{width: 500px; height: 700px; float: right; margin: 50px 30px;}
+
+        /*배너*/
+        .banner{width: 100%; height: 250px; margin: 0 auto;}
+        .banner>a>img{width: 100%; height: 140px;}
+
+
+        /*상품5*/
+        #product5{width: 1260px; height: 2600px; margin: 0 auto;}
+        #product5>h1{text-align: center; font-size: 30px; padding: 60px 0 20px 10px;}
+
+        #product5>.box{width: 270px; height: 350px; float: left; margin:10px 22.5px;}
+        #product5>.box>a>img{width: 100%; height: 70%; border-radius: 20px; transition: 0.7s; margin: 0 0 10px 0px;}
+        #product5>.box>a>img:hover{opacity: 0.7; cursor: pointer; border-radius: 90px;}
+
+        #product5>.box>h3>a{text-decoration: none; font-size: 20px; color: #000;}
+        #product5>.box>p>a{text-decoration: none; font-size: 16px; color: #000;}
+
+        #product5>button{padding: 15px 120px; margin: 23px 0 0 483px; cursor: pointer; border: 1px solid silver; color: #000; background-color: #fff;}
+        #product5>button:hover{background-color: gainsboro; opacity: 0.7;}
